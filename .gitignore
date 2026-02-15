@@ -35,3 +35,22 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Sensitive Config Files ###
+**/auth-application.yml
+**/user-application.yml
+**/bootstrap.yml
+
+### Environment ###
+.env
+*.env
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Docker ###
+docker-compose.override.yml
+
+### Logs ###
+*.log
